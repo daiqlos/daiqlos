@@ -1,0 +1,55 @@
+@media (min-width: 600px){
+	.responsive{
+		display: inline-block;
+		width: 200px;
+	}
+	body{
+		background: #E0FFFF;
+	}
+}
+
+@media (min-width: 1000px){
+	.responsive{
+		display: inline-block;
+		width: 500px;
+	}
+	body{
+		background: #EEE8AA;
+	}
+}
+
+
+a{
+	color: black
+}
+
+a:hover{
+	color: #008080;
+	background: white;
+	font-family: fantasy;
+	font-size: 24pt;
+}
+
+.orange:hover{
+	color: #FF8C00;
+	background: #7CFC00;
+	font-family: monospace;
+	font-size: 30pt;
+}
+
+h3{
+	font-family: sans-serif;
+	
+}
+.indent {
+	margin: 10px;
+	
+}
+
+.gap-below{
+	margin-bottom: 30px;
+}
+
+.thinborder {
+	border: 1px solid black;
+}
